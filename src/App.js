@@ -36,8 +36,8 @@ function App() {
         <img src={image} alt='Cloud image' />
       </div>
       <div className='btndiv'>
-        <button className='btn' onClick={()=>{getAnimation().play()}}>Play Cloud</button>
-        <button className='btn' onClick={()=>{getAnimation().pause()}}>Pause Cloud</button>
+        <button className='btn' onClick={()=>{getAnimation().play()}}>Play Cloud.</button>
+        <button className='btn' onClick={()=>{getAnimation().pause()}}>Pause Cloud.</button>
       </div>
       {/* <div ref={ele}>
         <img width='120px' height='70px' src={plane} alt='Place image' />
